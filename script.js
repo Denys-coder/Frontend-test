@@ -1,12 +1,12 @@
-function showPrompt(html, callback) {
-
-}
-
-document.getElementById('show-form').addEventListener('click', function(event) {
-    showPrompt("Введите что-нибудь<br>...умное :)", function(value) {
-        alert(value);
-    });
-})
+// function showPrompt(html, callback) {
+//
+// }
+//
+// document.getElementById('show-form').addEventListener('click', function(event) {
+//     showPrompt("Введите что-нибудь<br>...умное :)", function(value) {
+//         alert(value);
+//     });
+// })
 
 
 alert("document.documentElement.clientWidth: " + document.documentElement.clientWidth); // 1536
