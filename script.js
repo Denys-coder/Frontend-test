@@ -13,3 +13,7 @@ alert("document.documentElement.clientWidth: " + document.documentElement.client
 alert("document.documentElement.clientHeight: " + document.documentElement.clientHeight); // 1536
 alert("window.innerWidth: " + window.innerWidth); // 730
 alert("window.innerHeight: " + window.innerHeight); // 730
+
+// personal laptop - 1536x730
+// working laptop - 1280x585
+// mobile - 360x710
