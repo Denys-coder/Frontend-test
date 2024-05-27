@@ -9,13 +9,13 @@
 // })
 
 
-setTimeout(1000, function () {
+setTimeout(function () {
     alert("document.documentElement.clientWidth: " + document.documentElement.clientWidth);
     alert("document.documentElement.clientHeight: " + document.documentElement.clientHeight);
     alert("window.innerWidth: " + window.innerWidth);
     alert("window.innerHeight: " + window.innerHeight);
     alert("window.devicePixelRatio: " + window.devicePixelRatio);
-})
+}, 1000);
 
 // personal laptop - 1920x945
 // working laptop - 1920x945
