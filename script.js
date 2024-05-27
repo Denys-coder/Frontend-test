@@ -9,12 +9,13 @@
 // })
 
 
-alert("document.documentElement.clientWidth: " + document.documentElement.clientWidth); // 1536
-alert("document.documentElement.clientHeight: " + document.documentElement.clientHeight); // 1536
-alert("window.innerWidth: " + window.innerWidth); // 730
-alert("window.innerHeight: " + window.innerHeight);
-
-alert("window.devicePixelRatio: " + window.devicePixelRatio);
+setTimeout(1000, function () {
+    alert("document.documentElement.clientWidth: " + document.documentElement.clientWidth);
+    alert("document.documentElement.clientHeight: " + document.documentElement.clientHeight);
+    alert("window.innerWidth: " + window.innerWidth);
+    alert("window.innerHeight: " + window.innerHeight);
+    alert("window.devicePixelRatio: " + window.devicePixelRatio);
+})
 
 // personal laptop - 1920x945
 // working laptop - 1920x945
